@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- You should properly set the path from the main file. -->
   <link rel="stylesheet" href="{{ URL::to('css/app.css') }}">
+  <link rel="stylesheet" href="{{ URL::to('css/style.css') }}">
   @yield('styles')
 </head>
 <body>
